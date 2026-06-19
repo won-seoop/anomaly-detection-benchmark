@@ -1,9 +1,13 @@
 # model weights
 *.pt
 *.pth
+*.onnx
 
 # temp
 pidinet/_batch_tmp/
+
+# generated deployment models
+weights/onnx/
 __pycache__/
 *.pyc
 
