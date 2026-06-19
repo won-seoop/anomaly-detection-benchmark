@@ -1,0 +1,18 @@
+# model weights
+*.pt
+*.pth
+
+# temp
+pidinet/_batch_tmp/
+__pycache__/
+*.pyc
+
+# pidinet original repo (clone separately)
+pidinet/pidinet_repo/
+
+# large binary data
+data/2/origin/
+
+# temp/debug images
+pidinet/_*.png
+pidinet/_batch_tmp/
